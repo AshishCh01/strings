@@ -25,6 +25,5 @@ int main()
 {
     string s = "caba";
     cout << validPalindrome(s);
-
     return 0;
 }
