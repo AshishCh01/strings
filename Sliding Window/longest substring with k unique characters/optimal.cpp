@@ -24,7 +24,6 @@ int longestKSubstr(string s, int k) {
         if (distinct == k)
             ans = max(ans, right - left + 1);
     }
-
     return ans;
 }
 int main()
